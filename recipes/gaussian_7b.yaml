@@ -14,7 +14,7 @@ remove_unused_columns: False
 use_vllm: true
 vllm_device: auto
 vllm_enforce_eager: true
-vllm_gpu_memory_utilization: 0.7
+vllm_gpu_memory_utilization: 0.6
 vllm_max_model_len: 4096
 do_eval: false
 gradient_accumulation_steps: 4
